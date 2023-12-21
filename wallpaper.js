@@ -24,7 +24,7 @@ var refreshWallpaper = async () => {
 
 if(!window.homebrew)window.homebrew=[];window.homebrew.push(
     {
-        name: "wallpaper",
+        name: "wallpaper configurator",
         event: () => {
             var f = document.createElement("input");
             f.accept = "image";

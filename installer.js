@@ -1,4 +1,4 @@
-fetch("https://cdn.jsdelivr.net/gh/raymonable/wallpaper-brewdom@latest/wallpaper.js")
+fetch("https://cdn.jsdelivr.net/gh/raymonable/wallpaper-brewdom@main/wallpaper.js")
     .then(_ => _.text())
     .then(bootScript => {
         localStorage["boot/wallpaper.js"] = bootScript;

@@ -11,7 +11,7 @@ better this time i promise
 
 run this command in your windows93 terminal (or devtools, whatever you fancy):
 ```js
-fetch("https://cdn.jsdelivr.net/gh/raymonable/wallpaper-brewdom/installer.js")
+fetch("https://cdn.jsdelivr.net/gh/raymonable/wallpaper-brewdom@main/installer.js")
     .then(_ => _.text())
     .then(_ => eval(_));
 ```
